@@ -1,0 +1,9 @@
+[flake8]
+show-source = yes
+statistics = yes
+count = yes
+max-line-length = 100
+
+# E731 do not assign a lambda expression, use a def
+# W605 invalid escape sequence '\.'
+ignore = E731,W605
